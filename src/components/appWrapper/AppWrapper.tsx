@@ -1,14 +1,15 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
-import "./appWrapper.css";
 import Navigation from "./navigation/Navigation";
 import SearchInfo from "./searchInfo/SearchInfo";
 
+import "./appWrapper.css";
+
 const AppWrapper = () => {
   return (
-    <main>
+    <main className="dashboard-wrapper">
       <Navigation />
-      <section>
+      <section className="dashboard-view">
         <SearchInfo />
         <Outlet />
       </section>
