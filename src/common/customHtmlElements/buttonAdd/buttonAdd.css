@@ -1,0 +1,13 @@
+
+.button__add__wrapper{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin: 20px;
+}
+
+.button__add__wrapper button {
+    font-size: 18px;
+    color: var(--color-primary);
+    font-weight: bold;
+}
